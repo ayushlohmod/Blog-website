@@ -1,0 +1,19 @@
+<%- include("partials/header") -%>
+
+<h1>Welcome To DAILY JOURNAL BLOG</h1>
+<h5><%= StartingContent %></h5> 
+
+
+<!-- <% console.log(Posts) %> -->
+
+<% Posts.forEach(function(post) { %>
+   
+    <h1><%= post.title %> </h1>
+    <p><%= post.content.substring(0, 100) + " ..." %> 
+    <a href="/posts/<%= post.title %> ">read more</a>
+</p> 
+
+<% }); %>
+
+
+<%- include("partials/footer") -%>
