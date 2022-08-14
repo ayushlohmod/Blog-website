@@ -2,7 +2,7 @@
 
 
 A Bloggig website Created using (NodeJs, Express, EJS):
-note: need to update
+note: appling Mongoose to this 
 
 
 Note-- This website is not comleted yet It needs a Database To store a data I am currently working on it but if anyone wants to work on this feel free, also the code is little messy agian i am working on an verson 2.0 of this website any help would be appreciated! 
